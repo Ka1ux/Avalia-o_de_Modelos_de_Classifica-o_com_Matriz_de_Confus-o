@@ -1,16 +1,19 @@
-# Avaliação de Modelos de Classificação com Matriz de Confusão
 
-## Descrição do Projeto
-Este projeto demonstra como calcular e visualizar métricas de avaliação de modelos de classificação binária usando Python:
+# Classification Model Evaluation with Confusion Matrix
 
-- Acurácia
-- Precisão (Precision)
-- Revocação (Recall)
+## Project Description
+
+This project demonstrates how to calculate and visualize evaluation metrics for binary classification models using Python:
+
+- Accuracy
+- Precision
+- Recall
 - F1-Score
 
-Além disso, o projeto mostra como criar e visualizar a **matriz de confusão**, essencial para entender os erros do modelo.
+Additionally, the project shows how to create and visualize the confusion matrix, which is essential to understand the model's errors.
 
-## Tecnologias Utilizadas
+## Technologies Used
+
 - Python 3
 - NumPy
 - Pandas
@@ -18,45 +21,46 @@ Além disso, o projeto mostra como criar e visualizar a **matriz de confusão**,
 - Seaborn
 - Scikit-learn
 
-## Como Executar
-1. Clone o repositório:
+## How to Run
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/seu-usuario/avaliacao_modelos.git
+git clone https://github.com/your-username/avaliacao_modelos.git
 cd avaliacao_modelos
 ```
 
-2. Instale as dependências:
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Execute o script Python:
+3. Run the Python script:
 
 ```bash
 python matriz_confusao.py
 ```
 
-## Explicação do Código
-O script realiza os seguintes passos:
+## Code Explanation
 
-1. **Importação das bibliotecas**  
-2. **Criação dos dados de exemplo** (`y_true` e `y_pred`)  
-3. **Cálculo e visualização da matriz de confusão normalizada**  
-4. **Cálculo das métricas de avaliação** (Acurácia, Precisão, Recall, F1-Score)  
-5. **Exibição das métricas e heatmap da matriz de confusão**
+The script performs the following steps:
 
-## Saída Esperada
-- **Matriz de Confusão Normalizada**  
-- **Métricas de Avaliação** como:
+1. Import necessary libraries
+2. Create sample data (`y_true` and `y_pred`)
+3. Calculate and visualize the normalized confusion matrix
+4. Calculate evaluation metrics (Accuracy, Precision, Recall, F1-Score)
+5. Display the metrics and the heatmap of the confusion matrix
 
-```
-Acurácia: 0.80
-Precisão: 0.86
-Revocação (Recall): 0.75
-F1-Score: 0.80
-```
+## Expected Output
 
-## Conclusão
-A matriz de confusão e as métricas fornecem uma visão clara sobre o desempenho do modelo e ajudam a identificar áreas de melhoria.
+- Normalized Confusion Matrix
+- Evaluation Metrics, for example:
+  - Accuracy: 0.80
+  - Precision: 0.86
+  - Recall: 0.75
+  - F1-Score: 0.80
+
+## Conclusion
+
+The confusion matrix and evaluation metrics provide a clear view of the model's performance and help identify areas for improvement.
